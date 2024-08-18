@@ -1,0 +1,164 @@
+@media screen and (max-width: 1199px) {
+
+  /* why choose us */
+  #userProfit :nth-child(3) {
+    width: 700px;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  /* header */
+  #header-nav ul {
+    display: none;
+  }
+
+  #sideBar i {
+    display: flex;
+  }
+
+  /* currency */
+  .container {
+    height: auto;
+  }
+
+  .sec-2 {
+    flex-wrap: wrap;
+  }
+
+  .currency-heading h2 {
+    width: auto;
+    font-size: 40px;
+  }
+
+  .currency-content p {
+    width: 600px;
+    font-size: 16px;
+  }
+
+  .currencyImg img {
+    margin-top: 30px;
+  }
+
+  .currency-read button {
+    margin: 20px 0;
+  }
+
+  /* services */
+  .servicesContent P {
+    width: 600px;
+    margin: auto;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .cardInfo {
+    margin-top: 10px;
+  }
+
+  /* our team */
+  #our_teams {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  #teams {
+    margin-top: 25px;
+  }
+
+  .mem1 {
+    margin-top: 15px;
+  }
+
+  .client1 {
+    margin-top: 50px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* currency */
+  .currency-heading h2 {
+    font-size: 25px;
+  }
+
+  .currency-content p {
+    width: 500px;
+    font-size: 13px;
+  }
+
+  /* services */
+  .servicesContent P {
+    width: 500px;
+    font-size: 14px;
+  }
+
+  /* why choose us */
+  #userProfit :nth-child(3) {
+    width: 570px;
+    margin: auto;
+    font-size: 15px;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+  /* #header {
+    padding: 10px 9px;
+  } */
+
+
+  /* currency */
+  .currency-heading h2 {
+    font-size: 20px;
+  }
+
+  .currency-content p {
+    width: 300px;
+    font-size: 11px;
+  }
+
+  .currencyImg img {
+    width: 307px;
+  }
+
+  #aboutImg img {
+    width: 307px;
+  }
+
+  /* why choose us */
+  #userProfit :nth-child(3) {
+    width: 288px;
+    margin: auto;
+    font-size: 12px;
+  }
+
+  /* services */
+  .servicesContent P {
+    width: 294px;
+    font-size: 12px;
+  }
+
+  .cards {
+    margin: 0 25px;
+  }
+
+  .cardInfo {
+    width: 100%;
+  }
+
+  /* client */
+  .client1 :nth-child(4) {
+    width: 280px;
+  }
+
+
+}

@@ -1,0 +1,111 @@
+body {
+  background: #00204a;
+}
+
+#form {
+  background: #00204a;
+  color: #fff;
+  margin-top: 60px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.logIn {
+  margin: 20px 0;
+  border: 1px solid #00bbf0;
+  padding: 20px 30px;
+}
+
+.logIn h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.logIn input {
+  width: 100%;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+}
+
+.logIn input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  padding: 10px;
+}
+
+.logIn input[type="radio"] {
+  width: auto;
+}
+
+.gender {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+select {
+  width: 100%;
+  padding: 10px 5px;
+  margin: 10px 0;
+  background: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  color: #fff;
+}
+
+select option {
+  color: #000;
+}
+
+select :nth-child(1) {
+  text-align: center;
+}
+
+.logIn button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: #00bbf0;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  width: 100%;
+  margin: 10px 0;
+
+  &:hover {
+    border: 1px solid #fff;
+    background: #00204a;
+  }
+}
+
+#for-sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#for-sign a {
+  color: #fff;
+}
+
+#for-sign p .log-in {
+  margin: 0 0 0 7px;
+  color: #00bbf0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#for-sign :nth-child(2):hover {
+  text-decoration: underline;
+}
+
+#footer {
+  margin-top: 50px;
+}

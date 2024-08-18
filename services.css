@@ -1,0 +1,17 @@
+body {
+  background: #00204a;
+}
+
+.servicesHeading h3,
+.servicesContent p {
+  color: #fff;
+}
+
+.cardInfo {
+  background: #00bbf0;
+  border-radius: 6px;
+}
+
+.cardInfo :nth-child(4):hover {
+  color: #616161;
+}
